@@ -1,1 +1,70 @@
-
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
+html {
+    font-family: Cinzel;
+  }
+  
+  /* header */
+  img {
+    height: 59px;
+    margin-left: 2%;
+    position: fixed;
+    margin-top: 0.4%;
+  }
+  
+  h1, h3 {
+    color: black;
+    display: inline-block;
+    padding: auto;
+  }
+  
+  h1 {
+    margin-left: 7%;
+  }
+  
+  #m, #v, #s {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  section .header {
+    background-color: rgb(202, 182, 151);
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+  
+  .two {
+    position: relative;
+    top: 0;
+    transition: top 0.3s ease-in-out;
+  }
+  
+  .two:hover {
+    top: 2px;
+    animation: float-updown 1s ease-in-out infinite;
+  }
+  
+  @keyframes float-updown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* /header */
+  
+  /* body */
+  body {
+    background-color: rgb(151, 171, 202);
+  }
+  
+  /* /body */
+  
